@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Xìiii Dáchhhh</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Xì Dách của hội Bùng Kèo</h1>
+
+<div id="setup">
+
+    <h3>Bữa nay có ai ???</h3>
+
+    <div id="characterList"></div>
+
+    <br>
+
+    <label>Tiền cược mỗi ván:</label>
+    <input type="number" id="bet" value="5"><br><br>
+
+    <button onclick="startGame()">Bắt đầu</button>
+</div>
+
+<div id="game" class="hidden">
+
+    <h2 id="bankerTitle"></h2>
+
+    <button onclick="changeBanker()">Đổi người làm cái</button>
+
+    <div id="playersContainer"></div>
+
+    <br>
+    <button onclick="endGame()">TỚI GIỜ VỀ</button>
+
+    <h2 id="result"></h2>
+    <div id="detail"></div>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
